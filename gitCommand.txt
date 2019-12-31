@@ -1,0 +1,13 @@
+git config --global user.name "home"
+git config --global user.email "manohar1.khot@gmail.com"
+
+
+go to parent folder of project
+rm -f .git/index.lock
+
+
+git add .
+git commit -m "comments"
+git push -u origin master
+git pull origin master
+
