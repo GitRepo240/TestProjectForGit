@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" junit="false" parallel="false">
+ 
+	<test enabled="false" name="Chrome Test" parallel="false" junit="false" skipfailedinvocationcounts="false" preserve-order="true" group-by-instances="false" allow-return-values="false">
+	 	<parameter name="browser" value="Chrome"></parameter>
+	 	<parameter name="DemoSiteLink" value="http://phptravels.net/"> </parameter> 
+		<classes> 
+			<!--<class name="com.qa.base.BeforeSuiteAndTest"/>--> 
+			<!-- Test runner wont run as it has not any testNG menthod & it is run using junit test 
+				<class name="com.qa.testrunner.TestRunner"/> --> 
+			<class name="com.qa.testlayer.CheckLoginPage"/> 
+			<!--<class name="com.qa.testlayer.CheckHomePage"/>--> 
+		</classes> 
+	</test>
+  	<test enabled="true" name="Chrome Test" parallel="false" preserve-order="true">
+	 	<parameter name="browser" value="Chrome"></parameter>
+	 	<parameter name="DemoSiteLink" value="http://phptravels.net/"> </parameter> 
+		<classes> 
+			<class name="com.qa.testlayer.CheckContactPage"/> 
+			<class name="com.qa.testlayer.CheckSearchPage"/> 
+		</classes> 
+	</test>
+</suite> <!-- Suite -->

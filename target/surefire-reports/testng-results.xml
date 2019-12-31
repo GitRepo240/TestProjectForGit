@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="216" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="216" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+      <class name="com.qa.testlayer.CheckContactPage">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.qa.testlayer.CheckContactPage@69d9c55]" name="BeforeTest" is-config="true" duration-ms="33" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.qa.testlayer.CheckSearchPage@13a57a3b]" name="BeforeTest" is-config="true" duration-ms="2" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="VerifyContact()[pri:1, instance:com.qa.testlayer.CheckContactPage@69d9c55]" name="VerifyContact" duration-ms="2" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContact -->
+        <test-method status="PASS" signature="VerifyContactnew()[pri:2, instance:com.qa.testlayer.CheckContactPage@69d9c55]" name="VerifyContactnew" duration-ms="1" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactnew -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.testlayer.CheckContactPage@69d9c55]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.testlayer.CheckSearchPage@13a57a3b]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qa.testlayer.CheckContactPage -->
+      <class name="com.qa.testlayer.CheckSearchPage">
+        <test-method status="PASS" signature="VerifySearch()[pri:1, instance:com.qa.testlayer.CheckSearchPage@13a57a3b]" name="VerifySearch" duration-ms="1" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearch -->
+        <test-method status="PASS" signature="VerifySearchNew()[pri:2, instance:com.qa.testlayer.CheckSearchPage@13a57a3b]" name="VerifySearchNew" duration-ms="1" started-at="2019-12-30T07:44:59Z" finished-at="2019-12-30T07:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchNew -->
+      </class> <!-- com.qa.testlayer.CheckSearchPage -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
